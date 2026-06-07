@@ -1,0 +1,16 @@
+{
+  "name": "post-text-verifier",
+  "version": "1.0.0",
+  "description": "Compile-time post verification system for community guidelines",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/runner.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
